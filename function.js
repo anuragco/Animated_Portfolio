@@ -1,3 +1,13 @@
+/*==============================Toggle icon Navbar==================================*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x')
+    navbar.classList.toggle('active');
+
+}
+
 var typed = new Typed (".multi",{
     strings: ["Frontend Developer" , "UI/UX Designer" , "Backend Developer " ,
      "Android Developer" ] ,
@@ -36,6 +46,12 @@ document .querySelector( 'header nav a[href*=' + id + "]").classList.add( 'activ
 
 };
 });
+/*==============================Toggle navbar when click link remove==================================*/
+
+ menuIcon.classList.remove('bx-x')
+    navbar.classList.remove('active');
+
+
 };
 
 /*==============================Sticky Nav Bar==================================*/
