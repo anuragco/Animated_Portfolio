@@ -15,7 +15,7 @@ body{
 }
 .header{
     position: fixed;
-    left: 0 ;
+    left: 100px;
     width: 100%;
     top: 0;
     padding: 20px 10%;
@@ -38,17 +38,19 @@ body{
     font-weight: 600;
     cursor: default;
     opacity: 0;
-    animation: slideRight 1s ease forwards;   
+    animation: slideRight 1s ease forwards; 
+    margin-right: 100px;  
+
 
 }
 
 .navbar a{
     display: inline-block;
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 50px;
     transform: .3s;
     opacity: 0;
     animation: slideTop .5s ease forwards;   
@@ -532,9 +534,9 @@ body{
     
 
 }
-
+/* 
 /* BREAKPOINT*/
-@media (min-width: 1200px){
+/* @media (min-width: 1200px){
     html {
         font-size: 55%;
     }
@@ -556,7 +558,7 @@ body{
     .footer{
         padding: 2rem 3%;
     }
-}
+} */ */
 
 /*@media (min-width: 768px){
     #menu-icon {
@@ -621,4 +623,4 @@ body{
     .portfolio-container{
         grid-template-columns: 1fr;
     }
-} 
+}

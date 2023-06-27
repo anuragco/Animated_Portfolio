@@ -1,4 +1,4 @@
-/*==============================Toggle icon Navbar==================================*/
+/*==============================Toggle icon Navbar==================================
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -7,7 +7,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 
 }
-
+*/
 var typed = new Typed (".multi",{
     strings: ["Frontend Developer" , "UI/UX Designer" , "Backend Developer " ,
      "Android Developer" ] ,
