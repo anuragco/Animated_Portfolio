@@ -60,3 +60,18 @@ let header = document.querySelector('header ');
 
 header.classList.toggle('sticky' , window.scrollY > 100);
 
+
+
+function SendEmail() {
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "shubhanginiirajan@gmail.com",
+        Password : "8F07C9CC078C308AFBB1E3892A5349771C19",
+        To : 'anurag.console@gmail.com',
+        From : "shubhanginiirajan@gmail.com",
+        Subject : document.getElementById('subjectemail').value,
+        Body : document.getElementById('body').value
+    }).then(
+      message => alert(message)
+    );
+}

@@ -534,93 +534,52 @@ body{
     
 
 }
-/* 
-/* BREAKPOINT*/
-/* @media (min-width: 1200px){
-    html {
-        font-size: 55%;
-    }
-}
 
-@media (min-width: 991px){
-    .header {
-        padding: 2rem 3%;
+@media (max-width: 768px) {
+
+    .about{
+        width: 660px;
     }
-    section {
-        padding: 10rem 3% 2rem;
+   .portfolio .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
-    .service{
-        padding-bottom: 7rem;
+    
+
+    #portfolio.portfolio{
+        width: 700px;
     }
-    .portfolio {
-        padding-bottom: 7rem;
+
+    .service .service-container {
+        display: flex;
+        flex-direction: column;
+        width: 720px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .contact form{
+        margin-left: 105px;
+        width: 500px;
+    }
+
+    .contact form input{ 
+        
     }
     .footer{
-        padding: 2rem 3%;
-    }
-} */ */
-
-/*@media (min-width: 768px){
-    #menu-icon {
-        display: block;
-    }
-    .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: #1f242d;
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem 0px rgba(0, 0, 0, .2);
+        width: 650px;
     }
 
-    .navbar.active{
-        display: block ;
-    }
-    .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-
-    }
-    .home{
-
-        flex-direction: column;
-    }
-    .home-content{
-        font-size: 2.6rem;
-    }
-
-    .home-content h1 {
-        font-size: 5rem;
-    }
-
-    .home-img img{
-        width: 70vw;
-        margin-top: 4rem;
-    }
-    .about{
-        flex-direction: column-reverse;
-    }
-
-    .about img {
-        width:70vw ;
-        margin-top: 4rem;
-    }
-    .service h2 {
-        margin-bottom: 3rem;
-    }
-    .portfolio h2 {
-        margin-bottom: 3rem;
-    }
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
+    .social-media a{
+        width: 30px;
+        height: 30px;
     }
 }
 
-@media (min-width: 768px){
-    .portfolio-container{
-        grid-template-columns: 1fr;
-    }
-}
+
