@@ -75,3 +75,5 @@ function SendEmail() {
       message => alert(message)
     );
 }
+
+window.alert('Sit in Under Development use pc for better viewability');
